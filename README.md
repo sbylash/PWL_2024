@@ -15,7 +15,7 @@ No.Absen/NIM : 25/2241720029
    Halaman menampilkan tulisan World sesuai dengan Route::get('/world', function () { return 'World'; });
 
 3. Route Index\
-   ![alt text](gambar/3.png) \
+   ![alt text](gambar/3.png)
 
 4. Route About \
    ![alt text](gambar/4.png)
