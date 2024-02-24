@@ -1,66 +1,92 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Jobhseet 2 - Routing, Controller, dan View
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Nama : Shasia Sasa Salsabyla \
+Kelas : TI - 2F \
+No.Absen/NIM : 25/2241720029
 
-## About Laravel
+## Basic Routing
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. Route Hello \
+   ![alt text](gambar/1.png)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+2. Route World \
+   ![alt text](gambar/2.png)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+3. Route Index\
+   ![alt text](gambar/3.png)
 
-## Learning Laravel
+4. Route About \
+   ![alt text](gambar/4.png)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Route Parameters
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+1. Route User \
+   ![alt text](gambar/5.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+2. Route User (Not Found) \
+   ![alt text](gambar/6.png)
 
-## Laravel Sponsors
+3. Route Comments \
+   ![alt text](gambar/7.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+4. Route Articles \
+   ![alt text](gambar/8.png)
 
-### Premium Partners
+## Optional Parameters
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+1. User (Null) \
+   ![alt text](gambar/9.png)
 
-## Contributing
+2. User/Shasia \
+   ![alt text](gambar/10.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+3. User \
+   ![alt text](gambar/11.png)
 
-## Code of Conduct
+## Controller
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1. Membuar Controller \
+   ![alt text](gambar/12.png)
 
-## Security Vulnerabilities
+2. Controller Hello \
+   ![alt text](gambar/13.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+3. Modifikasi \
+   ![alt text](gambar/28.png)
+   ![alt text](gambar/29.png)
+   ![alt text](gambar/14.png)
+   ![alt text](gambar/15.png)
+   ![alt text](gambar/16.png)
 
-## License
+4. Modifikasi Single Action Controller \
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+    ![alt text](gambar/17.png)
+    ![alt text](gambar/18.png)
+    ![alt text](gambar/19.png)
+    ![alt text](gambar/30.png)
+    ![alt text](gambar/20.png)
+    ![alt text](gambar/31.png)
+    ![alt text](gambar/21.png)
+    ![alt text](gambar/32.png)
+
+## Resource Controller
+
+1. Membuat Controller \
+   ![alt text](gambar/22.png)
+
+2. List Route \
+   ![alt text](gambar/23.png)
+
+## View
+
+1. View \
+   ![alt text](gambar/24.png)
+
+2. View dalam Direktori \
+   ![alt text](gambar/25.png)
+
+3. View dari Controller \
+   ![alt text](gambar/26.png)
+
+4. Meneruskan Data ke View \
+   ![alt text](gambar/27.png)

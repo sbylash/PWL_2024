@@ -66,9 +66,9 @@ use App\Http\Controllers\PhotoController;
 // Route::get('/about', [PageController::class, 'about']);
 // Route::get('/articles/{id}', [PageController::class, 'articles']);
 
-// Route::get('/', [HomeController::class,'index']);
-// Route::get('/about', [AboutController::class,'about']);
-// Route::get('/articles/{id}', [ArticleController::class,'articles']);
+Route::get('/', [HomeController::class,'index']);
+Route::get('/about', [AboutController::class,'about']);
+Route::get('/articles/{id}', [ArticleController::class,'articles']);
 
 // Route::resource('photos', PhotoController::class);
 
@@ -80,4 +80,4 @@ use App\Http\Controllers\PhotoController;
 //     return view('blog.hello', ['name' => 'Shasia']);
 // });
 
-Route::get('/greeting', [WelcomeController::class, 'greeting']);
+// Route::get('/greeting', [WelcomeController::class, 'greeting']);
