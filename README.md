@@ -6,19 +6,23 @@ No.Absen/NIM : 25/2241720029
 
 ## Basic Routing
 
-1. Route Hello \
-   ![alt text](gambar/1.png) \
-    Halaman muncul tulisan Hello Word, sesuai dengan apa yang diketikkan di file web.php Route::get('/hello', function () { return 'Hello World'; });
+1.  Route Hello \
+    ![alt text](gambar/1.png) \
+     Halaman muncul tulisan Hello Word, sesuai dengan apa yang diketikkan di file web.php
 
-2. Route World \
-   ![alt text](gambar/2.png) \
-   Halaman menampilkan tulisan World sesuai dengan Route::get('/world', function () { return 'World'; });
+          Route::get('/hello', function () { return 'Hello World'; });
 
-3. Route Index\
-   ![alt text](gambar/3.png)
+2.  Route World \
+    ![alt text](gambar/2.png) \
+    Halaman menampilkan tulisan World sesuai dengan
 
-4. Route About \
-   ![alt text](gambar/4.png)
+          Route::get('/world', function () { return 'World'; });
+
+3.  Route Index\
+    ![alt text](gambar/3.png)
+
+4.  Route About \
+    ![alt text](gambar/4.png)
 
 ## Route Parameters
 

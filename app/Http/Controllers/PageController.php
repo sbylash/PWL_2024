@@ -11,7 +11,7 @@ class PageController extends Controller
     }
 
     public function about() {
-        return 'NIM: 2241720029, Nama: Shasia Sasa Salsabyla';
+        return 'NIM: 2241720029 <br> Nama: Shasia Sasa Salsabyla';
     }
 
     public function articles($id) {
